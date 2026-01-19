@@ -20,7 +20,7 @@ import { RiUserCommunityFill } from "react-icons/ri";
 const Skills = () => {
     return (
         <>
-            <div className='mt-50'>
+            <div className='mt-50 timeline-view animate-blurred-fade-in animate-range-[entry_10%_contain_30%]'>
                 <Container>
                     <Heading title='My Abilities' Header='My Experience' />
                     <Flex className='justify-between '>

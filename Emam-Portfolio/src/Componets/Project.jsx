@@ -11,7 +11,8 @@ const Project = () => {
   return (
     <div className='mt-50'>
       <Container>
-        <Heading title='My Project' Header='Recent project'/>
+        <Heading title='My Project' Header='Recent project timeline-view animate-blurred-fade-in animate-range-[entry_10%_contain_30%]
+'/>
         <Flex className='mt-25  gap-10'>
             <ProjectCard imgSrc={carts} title='E-Commerce Website' btn='Demo'/>
             <ProjectCard imgSrc={todo} title='Todo List' btn='Demo' />

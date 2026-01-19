@@ -11,7 +11,8 @@ import Button from '../Componets/Button'
 
 const About = () => {
   return (
-    <div className='mt-40'>
+    <div className='mt-40 timeline-view animate-zoom-in animate-range-cover
+'>
      <Container>
         <Heading title='My Intro' Header='About ME' />
 
