@@ -83,7 +83,7 @@ const Navber = () => {
     < >
       <Container>
 
-        <div className="flex fixed items-center justify-center z-40  bottom-10 right-0 text-center h-35rem w-full">
+        <div className="flex fixed items-center justify-center z-40  bottom-3 right-0 text-center h-35rem w-full">
           <FloatingDock
             mobileClassName="translate-y-20 " // only for demo, remove for production
             items={links}

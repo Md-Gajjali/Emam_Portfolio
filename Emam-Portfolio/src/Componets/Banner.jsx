@@ -7,15 +7,15 @@ const Banner = () => {
   return (
     <div>
       <Container>
-          <div className='text-center leading-10 mt-24'>
+          <div className='text-center leading-10 mt-24 animate-blurred-fade-in'>
             <h5 className='text-[16px] text-white'>Hello, i'm</h5>
             <h1 className='text-5xl text-DarkBlue font-bold'>Emam Gajjali</h1>
             <p className='text-[18px] text-primary'>Frontend Developer</p>
                 <div className='justify-center mt-10 flex gap-10 '>
-                  <Button className='hover:bg-DarkBlue text-DarkBlue! duration-700 ease-in-out hover:text-black! w-40'>Download CV</Button>
-                  <Button className='bg-DarkBlue text-black px-2 '>About</Button>
+                  <Button className='hover:bg-DarkBlue text-DarkBlue! text-[17px] duration-700 ease-in-out hover:text-black! w-50'>Download CV</Button>
+                  <Button className='bg-DarkBlue text-black  '>About</Button>
                 </div>
-              <div className='justify-center mt-10 flex   '>
+              <div className='justify-center mt-20 flex   '>
                 <img src={img} alt="" className='w-90 ' />
               </div>
           </div>
