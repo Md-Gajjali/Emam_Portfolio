@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+@import "tailwindcss";
+
+
+@theme{
+    --breakpoint-*: initial ;
+    --breakpoint-sm:576px ;
+    --breakpoint-md:768px ;
+    --breakpoint-lg:992px ;
+    --breakpoint-xl:1170px ;
+    --font-inter: "Inter", sans-serif;
+    --font-one: "Special Gothic Expanded One", sans-serif;
+    --font-family: "Castoro", serif;
+    --font-chil: "Charis SIL", serif;
+    --background-color: #0B111E;
+    --color-DarkBlue:#A395E9;
+    --color-primary:#BABEC4;
+}
+
+body{
+  background-color: #0B111E;
+  /* font-family: "Charis SIL", serif; */
+    /* font-family: "Special Gothic Expanded One", sans-serif; */
+      font-family: "Castoro", serif;
+
+
+}
+
+
+@layer utilities {
+  .container{
+    margin:auto ;
+  }
+}
