@@ -9,14 +9,12 @@ import Project from './Componets/Project'
 import Services from './Componets/Services'
 import Client from './Componets/Client'
 import Contact from './Componets/Contact'
-import Futter from './Componets/Futter'
 
 function App() {
 
   return (
     <>
-      <Header/>
-      <Navber/> 
+
       <Banner/>
       <About/>
       <Skills/>
@@ -24,7 +22,6 @@ function App() {
       <Services/>
       <Client/>
       <Contact/>
-      <Futter/>
     </>
   )
 }

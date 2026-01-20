@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div>
       <Container>
-          <div className='text-center leading-10 mt-24 animate-blurred-fade-in'>
+          <div className='text-center leading-10 mt-24 '>
             <h5 className='text-[16px] text-white'>Hello, i'm</h5>
             <h1 className='text-5xl text-DarkBlue font-bold'>Emam Gajjali</h1>
             <p className='text-[18px] text-primary'>Frontend Developer</p>

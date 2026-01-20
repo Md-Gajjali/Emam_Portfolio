@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 @import "tailwindcss";
-@import 'tailwind-animations';
 
 @theme{
     --breakpoint-*: initial ;

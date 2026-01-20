@@ -6,7 +6,7 @@ import ServiceCard from './ServiceCard'
 
 const Services = () => {
   return (
-    <div className='mt-40 timeline-view animate-blurred-fade-in animate-range-[entry_10%_contain_30%]'>
+    <div className='mt-40  '>
       <Container>
         <Heading  title='My Service' Header='What I Offer' />
         <Flex className='justify-between mt-20'>

@@ -16,6 +16,7 @@ import {
   IconNewSection,
   IconTerminal2,
 } from "@tabler/icons-react";
+import { NavLink } from 'react-router';
 
 
 const Navber = () => {
@@ -23,15 +24,19 @@ const Navber = () => {
     {
       title: "Home",
       icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <NavLink to="/" end>
+          <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        </NavLink>
       ),
       href: "#",
     },
 
     {
-      title: "Products",
+      title: "About",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <NavLink to="/about" end>
+          <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      </NavLink>
       ),
       href: "#",
     },
@@ -65,6 +70,7 @@ const Navber = () => {
     {
       title: "Twitter",
       icon: (
+        
         <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
