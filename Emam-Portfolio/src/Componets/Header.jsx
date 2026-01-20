@@ -3,6 +3,7 @@ import Container from './Container'
 import Flex from './Flex'
 import { FaMoon } from "react-icons/fa6";
 import ShinyText from './ShinyText';
+
 const Header = () => {
   return (
     <div className=' mt-10'>

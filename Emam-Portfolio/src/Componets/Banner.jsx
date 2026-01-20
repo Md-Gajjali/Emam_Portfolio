@@ -1,8 +1,8 @@
 import React from 'react'
 import Container from './Container'
 import Button from './Button'
-import Flex from './Flex'
 import img from '../assets/img.png'
+
 const Banner = () => {
   return (
     <div>

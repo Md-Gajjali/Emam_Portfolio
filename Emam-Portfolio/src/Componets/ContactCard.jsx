@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from './Button'
-import { Contact } from 'lucide-react'
 
 const ContactCard = ({icons,iconNAme,contact,btn}) => {
   return (
